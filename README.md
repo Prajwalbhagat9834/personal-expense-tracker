@@ -1,8 +1,8 @@
 # Personal Expense Tracker
 
-A **responsive**, **single-page** web app built with **HTML5**, **CSS3**, and **vanilla JavaScript** that lets users log and categorize daily expenses with live‐updating, animated budget progress bars—no backend required.
-
+A **responsive**, **single-page** web app built with **HTML5**, **CSS3**, and **vanilla JavaScript** that lets users log and categorize daily expenses with live‐updating, animated budget progress bars.
 ---
+
 
 ## Features
 
