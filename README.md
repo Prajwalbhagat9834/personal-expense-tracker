@@ -37,7 +37,9 @@ A **responsive**, **single-page** web app built with **HTML5**, **CSS3**, and **
 
 ## Tech Stack
 
-- **HTML5** for semantic markup  
+- **HTML5** 
+  - Semantic HTML5 tags for clear, accessible page structure
+  - Built-in form validation and organized markup for easy maintenance
 - **CSS3**  
   - Custom Properties for dynamic styling  
   - Grid & Flexbox for responsive layouts  
