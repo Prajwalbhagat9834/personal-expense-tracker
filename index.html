@@ -18,18 +18,18 @@
                                                           <!-- Expense Entry Panel -->
       
         <section class="card entry-card">               
-            <h2>Add New Expense</h2>                   
+            <h2>Add New Expense</h2>                               <!-- each section should have a heading -->       
 
             <form id="expense-form">                                                     <!-- form to enter new expense -->
                 <input type="text" id="desc" placeholder="Description" required>            <!--  creates text input field -->
                 <input type="number" id="amt" placeholder="Amount (₹)" step="1" required>       <!--  placeholder,  text showing what to enter-->
                 <select id="category" required>                                              <!--  dropdown menu for selecting category -->
-                    <option value="" disabled selected>Category</option>                    <!--  value="" means Empty value (invalid choice)  ,  disabled: Can't be selected after choosing another option  , selected: This option appears by default -->
-                    <option>Food & Dining</option>
+                    <option value="" disabled selected>Category</option>                    <!--   disabled: cannot be selected after choosing another option  , selected: This option appears by default -->
+                    <option>Food</option>
                     <option>Transportation</option>
                     <option>Entertainment</option>
                 </select>
-                <input type="date" id="date" required>        <!-- Shows a calendar -->   <!--  id attribute creates a Unique identifier for JavaScript to access this field , js uses this ID to find and control the form -->
+                <input type="date" id="date" required>                              <!-- Shows a calendar -->  
                 <button type="submit">Add Expense</button>
             </form>
 
@@ -40,7 +40,7 @@
         <section class="budget-grid">                  <!--  groups the three budget cards together  -->
 
             <div class="card budget-card">
-                <h3>Food & Dining</h3>
+                <h3>Food</h3>
                 <div class="progress-bar" id="food-bar" style="--used:0%;"></div>         <!--  progress bar  -->
                 <p><span class="used" id="food-used">₹0</span> / ₹5,000</p>               <!--  used and total amount  -->
             </div>
@@ -67,7 +67,7 @@
     </main>
 
    
-    <script src="script.js"></script>         <!-- Connect JS file here -->  <!--  This ensures HTML loads first before JavaScript runs and Prevents JavaScript errors when trying to find elements-->
+    <script src="script.js"></script>         <!-- connecting JS file here as this ensures HTML loads first before js runs and prevents js errors when trying to find elements-->
 
 </body>
 </html>
